@@ -1,5 +1,5 @@
 
-let priceElements =document.querySelectorAll('[data-ns-test="prices"]');
+let priceElements =document.querySelectorAll('[data-ns-test="price"]');
 
 let total = 0;
 for (let i = 0; i < priceElements.length;i++){
