@@ -2,7 +2,7 @@
 let priceElements =document.querySelectorAll('[data-ns-test="prices"]');
 
 let total = 0;
-for (let i = 0; i < priceElement.length;i++){
+for (let i = 0; i < priceElements.length;i++){
 	total+= parseFloat(priceElements[i].textContent)
 };
 
